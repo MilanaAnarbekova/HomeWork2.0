@@ -10,8 +10,10 @@ private String color;
 
     @Override
     public void print() {
-        System.out.println(getName());
-        System.out.println(getSuperAbility());
-        System.out.println(color);
+        System.out.println("--------------------");
+        System.out.println("Name: "+getName());
+        System.out.println("Super Ability: "+getSuperAbility());
+        System.out.println("Color: "+color);
+        System.out.println("--------------------");
     }
 }

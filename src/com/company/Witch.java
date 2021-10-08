@@ -10,8 +10,9 @@ public class Witch extends MythicalCreatures implements Printable{
 
     @Override
     public void print() {
-        System.out.println(getName());
-        System.out.println(getSuperAbility());
-        System.out.println(type);
+        System.out.println("--------------------");
+        System.out.println("Name: "+getName());
+        System.out.println("Super Ability: "+getSuperAbility());
+        System.out.println("Type: "+type);
     }
 }

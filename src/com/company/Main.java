@@ -6,6 +6,7 @@ public class Main {
 
         MythicalCreatures[] arrayMythicalCreatures = {createObject("Witch"),
                 createObject("Elf"), createObject("Werewolf")};
+
         for (MythicalCreatures a : arrayMythicalCreatures) {
             a.print();
 
@@ -16,7 +17,7 @@ public class Main {
     public static MythicalCreatures createObject(String className) {
         switch (className){
             case "Elf":
-                Elf milana = new Elf("Milana ","teleport","bad");
+                Elf milana = new Elf("Sofia ","teleport","bad");
                 return milana;
             case "Witch":
                 Witch flora= new Witch("Flora","plants","forest");
